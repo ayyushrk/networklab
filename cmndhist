@@ -144,3 +144,150 @@ mtech@programming-lab:~$ history
   143  sudo tcpdump
   144  touch lab.md
   145  history
+
+mtech@programming-lab:~$ sudo tcpdump -A tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on enp1s0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:35:14.111635 IP lb-140-82-113-26-iad.github.com.https > programming-lab.58212: Flags [P.], seq 2945464932:2945464958, ack 657596364, win 1540, options [nop,nop,TS val 1799099 ecr 3676712265], length 26
+E..N%.@.@....Rq.
+
+.6...d..:d'2......v......
+..s..&-I.....iq..?2...n.
+{Vj/.[.\|
+15:35:14.111755 IP programming-lab.58212 > lb-140-82-113-26-iad.github.com.https: Flags [P.], seq 1:31, ack 26, win 594, options [nop,nop,TS val 3676772270 ecr 1799099], length 30
+E..R+A@.@...
+
+.6.Rq..d..'2....:~...R.......
+.'....s......L..xj.CSzQ.....{y....P...
+15:35:14.111944 IP lb-140-82-113-26-iad.github.com.https > programming-lab.58212: Flags [.], ack 31, win 1540, options [nop,nop,TS val 1799099 ecr 3676772270], length 0
+E..4%.@.@....Rq.
+
+.6...d..:~'2.............
+..s..'..
+15:35:46.680029 IP lb-140-82-112-25-iad.github.com.https > programming-lab.46294: Flags [P.], seq 4160653898:4160653924, ack 3431692605, win 1540, options [nop,nop,TS val 1808869 ecr 1133374047], length 26
+E..N..@.@.J..Rp.
+
+.6.......J..y=...........
+....C.._.........#.r..
+|.....[^.w.
+15:35:46.680253 IP programming-lab.46294 > lb-140-82-112-25-iad.github.com.https: Flags [P.], seq 1:31, ack 26, win 573, options [nop,nop,TS val 1133434046 ecr 1808869], length 30
+E..R..@.@..0
+
+.6.Rp.......y=...d...=.......
+C.............3.....9.d./.B..5.\..t/..
+15:35:46.680436 IP lb-140-82-112-25-iad.github.com.https > programming-lab.46294: Flags [.], ack 31, win 1540, options [nop,nop,TS val 1808869 ecr 1133434046], length 0
+E..4..@.@.K..Rp.
+
+.6.......d..y[....7......
+....C...
+15:35:55.788373 IP programming-lab.45700 > ubuntu-content-cache-2.ps6.canonical.com.http: Flags [S], seq 2857010845, win 64240, options [mss 1460,sackOK,TS val 3989510492 ecr 0,nop,wscale 7], length 0
+E..<..@.@...
+
+.6[.[a...P.J.....................
+...\........
+15:35:55.788833 IP ubuntu-content-cache-2.ps6.canonical.com.http > programming-lab.45700: Flags [S.], seq 1105789075, ack 2857010846, win 32768, options [mss 1400,sackOK,TS val 1811602 ecr 3989510492,nop,wscale 5], length 0
+E..<..@.@.x^[.[a
+
+.6.P..A....J......3......x...
+.......\....
+15:35:55.788884 IP programming-lab.45700 > ubuntu-content-cache-2.ps6.canonical.com.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 3989510492 ecr 1811602], length 0
+E..4..@.@...
+
+.6[.[a...P.J..A..............
+...\....
+15:35:55.788938 IP programming-lab.45700 > ubuntu-content-cache-2.ps6.canonical.com.http: Flags [P.], seq 1:89, ack 1, win 502, options [nop,nop,TS val 3989510492 ecr 1811602], length 88: HTTP: GET / HTTP/1.1
+E.....@.@..E
+
+.6[.[a...P.J..A..............
+...\....GET / HTTP/1.1
+Host: connectivity-check.ubuntu.com.
+Accept: */*
+Connection: close
+
+
+15:35:55.789071 IP ubuntu-content-cache-2.ps6.canonical.com.http > programming-lab.45700: Flags [.], ack 89, win 1024, options [nop,nop,TS val 1811602 ecr 3989510492], length 0
+E..4..@.@.._[.[a
+
+.6.P..A....J.............
+.......\
+15:35:56.288276 IP ubuntu-content-cache-2.ps6.canonical.com.http > programming-lab.45700: Flags [P.], seq 1:47, ack 89, win 1024, options [nop,nop,TS val 1811752 ecr 3989510492], length 46: HTTP: HTTP/1.1 204 No Content
+E..b..@.@..0[.[a
+
+.6.P..A....J......:N.....
+...(...\HTTP/1.1 204 No Content
+connection: close
+
+
+15:35:56.288278 IP ubuntu-content-cache-2.ps6.canonical.com.http > programming-lab.45700: Flags [F.], seq 47, ack 89, win 1024, options [nop,nop,TS val 1811752 ecr 3989510492], length 0
+E..4..@.@..][.[a
+
+.6.P..A....J.......1.....
+...(...\
+15:35:56.288350 IP programming-lab.45700 > ubuntu-content-cache-2.ps6.canonical.com.http: Flags [.], ack 47, win 502, options [nop,nop,TS val 3989510992 ecr 1811752], length 0
+E..4..@.@...
+
+.6[.[a...P.J..A..............
+...P...(
+15:35:56.288420 IP programming-lab.45700 > ubuntu-content-cache-2.ps6.canonical.com.http: Flags [F.], seq 89, ack 48, win 502, options [nop,nop,TS val 3989510992 ecr 1811752], length 0
+E..4..@.@...
+
+.6[.[a...P.J..A..............
+...P...(
+15:35:56.288590 IP ubuntu-content-cache-2.ps6.canonical.com.http > programming-lab.45700: Flags [.], ack 90, win 1024, options [nop,nop,TS val 1811752 ecr 3989510992], length 0
+E..4.	@.@..\[.[a
+
+.6.P..A....J.......<.....
+...(...P
+15:36:14.111176 IP lb-140-82-113-26-iad.github.com.https > programming-lab.58212: Flags [P.], seq 26:52, ack 31, win 1540, options [nop,nop,TS val 1817098 ecr 3676772270], length 26
+E..N%.@.@....Rq.
+
+.6...d..:~'2.............
+...
+.'........ .F{....*bZ..U...l;.
+15:36:14.111312 IP programming-lab.58212 > lb-140-82-113-26-iad.github.com.https: Flags [P.], seq 31:61, ack 52, win 594, options [nop,nop,TS val 3676832270 ecr 1817098], length 30
+E..R+B@.@...
+
+.6.Rq..d..'2....:....R.......
+.(.....
+.....^.e..M!J^.6..(........px.
+15:36:14.111524 IP lb-140-82-113-26-iad.github.com.https > programming-lab.58212: Flags [.], ack 61, win 1540, options [nop,nop,TS val 1817099 ecr 3676832270], length 0
+E..4%.@.@....Rq.
+
+.6...d..:.'2 ......,.....
+.....(..
+15:36:40.408103 IP 93.243.107.34.bc.googleusercontent.com.https > programming-lab.47992: Flags [P.], seq 3142864029:3142864053, ack 2860931622, win 1540, options [nop,nop,TS val 1824987 ecr 2108807101], length 24
+E..L_.@.@..."k.]
+
+.6...x.TL...Z&...........
+....}...........8..".......[.5X^
+15:36:40.408347 IP programming-lab.47992 > 93.243.107.34.bc.googleusercontent.com.https: Flags [P.], seq 1:29, ack 24, win 529, options [nop,nop,TS val 2109107359 ecr 1824987], length 28
+E..PQ.@.@...
+
+.6"k.].x....Z&.TL.....!K.....
+}.l.....................&....u..Y...
+15:36:40.408525 IP 93.243.107.34.bc.googleusercontent.com.https > programming-lab.47992: Flags [.], ack 29, win 1540, options [nop,nop,TS val 1824988 ecr 2109107359], length 0
+E..4_.@.@..."k.]
+
+.6...x.TL...ZB.....\.....
+....}.l.
+15:36:46.679794 IP lb-140-82-112-25-iad.github.com.https > programming-lab.46294: Flags [P.], seq 26:52, ack 31, win 1540, options [nop,nop,TS val 1826869 ecr 1133434046], length 26
+E..N..@.@.J..Rp.
+
+.6.......d..y[....3......
+...5C............a.~...R.c&+B.8Z..
+15:36:46.680020 IP programming-lab.46294 > lb-140-82-112-25-iad.github.com.https: Flags [P.], seq 31:61, ack 52, win 573, options [nop,nop,TS val 1133494046 ecr 1826869], length 30
+E..R..@.@../
+
+.6.Rp.......y[...~...=.......
+C......5.........&.......TC...	..O.@ks
+15:36:46.680200 IP lb-140-82-112-25-iad.github.com.https > programming-lab.46294: Flags [.], ack 61, win 1540, options [nop,nop,TS val 1826869 ecr 1133494046], length 0
+E..4..@.@.J..Rp.
+
+.6.......~..yy...........
+...5C...
+^C
+25 packets captured
+25 packets received by filter
+0 packets dropped by kernel
+mtech@programming-lab:~$ 
+
