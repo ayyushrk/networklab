@@ -1,0 +1,146 @@
+mtech@programming-lab:~$ history
+    1  sudo apt install net-tools
+    2  ifconfig
+    3  netstat -r
+    4  ping 2.2.2.2
+    5  ping 8.8.8.8
+    6  netstat -r
+    7  ss
+    8  traceroute google.com
+    9  sudo apt install inetutils-traceroute  
+   10  traceroute google.com
+   11  traceroute javatpoint.com
+   12  ip a
+   13  arp
+   14  ip addr
+   15  ifpulgstatus
+   16  w
+   17  telnet localhost
+   18  hostname
+   19  wget google.com
+   20  mtr google.com
+   21  ls
+   22  cd student
+   23  su student
+   24  sudo su mtech
+   25  sudo systemctl start mysql
+   26  sudo mysql -u root
+   27  mysql -u root -p
+   28  sudo mysql -u root -p
+   29  mysql -u root -p
+   30  sudo ip ad add 10.0.0.1/24 dev eth0
+   31  ip a
+   32  sudo apt install neofetch
+   33  sudo wireshark
+   34  sudo apt-get install ns2
+   35  clear
+   36  nano test.tcl
+   37  cd ~
+   38  nano test.tcl
+   39  ns test.tcl
+   40  nano test.tcl
+   41  ns test.tcl
+   42  sudo apt-get purge nam
+   43  ns test.tcl
+   44  nano test.tcl
+   45  ns test.tcl
+   46  nano test.tcl
+   47  ns test.tcl
+   48  nano test.tcl
+   49  ns test.tcl
+   50  sudo apt update
+   51  sudo apt install nam
+   52  ns test.tcl
+   53  xhost =local:
+   54  xhost +local:
+   55  deactivate
+   56  ls
+   57  source ml_env/bin/activate
+   58  sudo apt update
+   59  sudo apt install python3 python3-pip
+   60  python --version
+   61  python3 --version
+   62  pip3 install numpy pandas
+   63  pip3 install --user numpy pandas
+   64  pip3 list
+   65  pip3 install numpy pandas
+   66  sudo apt update
+   67  sudo apt install python3-full python3-venv
+   68  python3 -m venv ml_env
+   69  source ml_env/bin/activate
+   70  pip install numpy pandas matplotlib scikit-learn
+   71  python
+   72  deactivate
+   73  source ml_env/bin/activate
+   74  deactivate
+   75  sudo snap install --classic code
+   76  ls
+   77  mkdir project
+   78  ls
+   79  cd project
+   80  code .
+   81  Python: Select Interpreter
+   82  source ml_env/bin/activate
+   83  cd ..
+   84  source ml_env/bin/activate
+   85  code .
+   86  Python: Select Interpreter
+   87  source /ml_env/bin/activate
+   88  cd ..
+   89  source /ml_env/bin/activate
+   90  source ml_env/bin/activate
+   91  ls
+   92  source ml_env/bin/activate
+   93  ls
+   94  cd project
+   95  ls
+   96  python3 python1.c
+   97  gedit py.c
+   98  ls
+   99  python3 py.c
+  100  gedit pyt.c
+  101  python3 pyt.c
+  102  gedit dot.py
+  103  python3 dot.py
+  104  gedit line.py
+  105  python3 line.py -o diag.png
+  106  delete history
+  107  source ml_env/bin/activate
+  108  ls
+  109  cd project
+  110  ls
+  111  python3 line.py -o diag.png
+  112  cd ..
+  113  source ml_env/bin/activate
+  114  ls
+  115  cd project
+  116  ls
+  117  whois ayushrkumar.vercel.app
+  118  sudo apt udpate
+  119  sudo apt update
+  120  sudo apt install whois
+  121  whois ayushrkumar.vercel.app
+  122  whois google.com
+  123  whois arjyunk.vercel.app
+  124  whois ayushrkumar.vercel.app
+  125  whois google.com
+  126  whois nssce.ac.in
+  127  nslookup ayushrkumar.vercel.app
+  128  whois 127.0.0.53#53
+  129  whois 64.29.17.3
+  130  whois 216.198.79.3
+  131  nslookup nssce.ac.in
+  132  whois 199.250.200.43
+  133  sudo apt install nmap -y
+  134  ip a
+  135  sudo nmap -A 10.10.1.85
+  136  nmap -A 10.10.1.85
+  137  man nmap
+  138  sudo nmap -sI 10.10.1.85
+  139  man nmap
+  140  sudo apt tcpdump
+  141  sudo apt install tcpdump
+  142  tcpdump
+  143  sudo tcpdump
+  144  touch lab.md
+  145  history
